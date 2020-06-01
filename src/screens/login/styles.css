@@ -1,0 +1,125 @@
+h2 {
+    font-family: "Red Hat Display";
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+.MuiFormControl-root {
+    width: 85%;
+}
+
+.MuiInputBase-input {
+    background-color: #707070;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-login {
+    width: 85%;
+    padding: 10px 5px;
+    margin-block-end: 10px;
+    border-radius: 50px;
+    background-color: #00812b;
+    color: #ffffff;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-login:hover {
+    background-color: #00b83d;
+}
+
+.cadastrar button {
+    width: 40%;
+    height: 35px;
+    border: 2px solid #00b83d;
+    border-radius: 20px;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cadastrar button:hover {
+    background-color: #00b83d;
+}
+
+.cadastrar button:hover a {
+    color: #ffffff !important;
+}
+
+.cadastrar h3 {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.MuiFilledInput-root {
+    background-color: transparent;
+}
+
+.input {
+    background-color: #e4e4e4;
+    border-radius: 50px;
+}
+
+.MuiFilledInput-root {
+    background-color: transparent !important;
+}
+
+.MuiInputLabel-formControl {
+    color: #6b6b6b !important;
+    left: 15px !important;
+    top: -4px !important;
+    font-size: 0.9em !important;
+}
+
+.MuiFilledInput-underline:before {
+    border-bottom: none !important;
+}
+
+.MuiFilledInput-input {
+    padding-top: 14px !important;
+    padding-left: 30px !important;
+}
+
+.MuiInputLabel-filled.MuiInputLabel-shrink {
+    display: none;
+}
+
+.MuiCardContent-root:last-child {
+    padding-bottom: 50px !important;
+}
+
+.MuiFormControl-marginNormal {
+    margin-top: 10px !important;
+}
+
+::before, ::after {
+    display: none;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    height: 85px;
+    width: auto;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
+    border: none;
+    -webkit-box-shadow: 0 0 0px 1000px #e2edff inset;
+    transition: background-color 5000s ease-in-out 0s;
+    border-radius: 50px;
+}
+
+button a {
+    color: #00ac39 !important;
+}
+
+button:focus {
+    outline: none;
+}

@@ -1,0 +1,24 @@
+.main-btn {
+    width: 300px;
+    height: 70;
+    left: 28px;
+    top: 329px;
+    background: linear-gradient(295.3deg, #00867E -1.53%, #A4F939 109.92%), #52FF00;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 60px;
+    color: white;
+}
+
+.content {
+    background-image: url("../../static/backgroundHome.jpg");
+    min-height: 100vh;
+    color: white;
+}
+
+h4 {
+    margin: 30px;
+}
+
+h5 {
+    margin-top: 100px;
+}

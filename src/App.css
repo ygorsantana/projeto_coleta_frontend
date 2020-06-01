@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.App-background {
+  background: linear-gradient(298deg, #B1FB03 -26.46%, #57F601 27.85%, #009654 87.1%), #52AD5B;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
